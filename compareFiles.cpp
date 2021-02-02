@@ -14,7 +14,7 @@ int main(int argc, char **argv)
     {
         while ( getline (inFile1,line1) && getline (inFile2,line2))
         {
-            cnt++ ;
+            lineCounter ++ ;
             if(line1[line1.size() -1 ] == ' ')
             {
                 line1.pop_back() ;
